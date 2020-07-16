@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SpeechRecognition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     
 </head>
 <body>
-    
-    <button id='btnGiveCommand'>Give Command!</button>
-    <br><br>
-    <span id='message'></span>
-    <br><br>
-    
-    <input id='chkSteve' type="checkbox"> Steve Rogers
-    <br>
-    <input id='chkTony' type="checkbox"> Tony Stark
-    <br>
-    <input id='chkBruce' type="checkbox"> Bruce Banner
-    <br>
-    <input id='chkNick' type="checkbox"> Nick Fury
+
+
+    <div class="row">
+        <div class="col s12 m7 align-center">
+          <div class="card">
+            <h2>Your Speech recognise by me!  </h2> <br> <br>
+          </div>  
+          
+            <div class="card-content">
+                  <button id='btnGiveCommand'> Start <br>
+                <i class="material-icons">keyboard_voice</i>
+                  </button>  <br> <br>
+                  
+                  <span id='message'></span>
+            
+            </div>
+            
+              
+         
+        </div>
+    </div>
+
+
+
+      
     
     <script>
         var message = document.querySelector('#message');
